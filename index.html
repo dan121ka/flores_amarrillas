@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jardín Mágico de Girasoles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="night-sky">
+    <div id="shooting-stars-container"></div>
+
+    <div class="moon"></div>
+    
+    <div id="particles-container"></div>
+
+    <div class="garden" id="garden">
+        <div class="grass-foreground"></div>
+    </div>
+
+    <div id="flower-template" style="display: none;">
+        <div class="flower">
+            <div class="flower__head">
+                <div class="flower__center"></div>
+                </div>
+            <div class="flower__stem">
+                </div>
+        </div>
+    </div>
+
+    <div id="intro-screen">
+        <h1>Tengo una sorpresa para ti... ✨</h1>
+        <button id="start-btn" class="magic-btn">Abrir sorpresa 🎁</button>
+    </div>
+
+    <div class="love-letter">
+        <h2>Para ti, mi amor 🌻</h2>
+        <p>Se que ayer fue el Día de las Flores Amarillas, aunque la fecha se me pasó un poquito, de ninguna manera quería dejar de sorprenderte.</p>
+        <p>Pensé que en lugar de regalarte un ramo tradicional que durara solo unos días, sería mucho más especial construirte uno, desde cero, por eso estuve programando este jardín mágico de girasoles para ti, le puse estrellas que parpadean, luciérnagas y una luna, para que tengas un pedacito de luz siempre que quieras verlo.</p>
+        <p>Perdón por el pequeño retraso, pero la ventaja de estas flores amarillas es que nunca se van a marchitar, exactamente igual que todo lo que siento por ti.</p>
+        <p class="signature">Te quiero muchísimo.</p>
+
+        <button id="close-letter-btn" class="magic-btn">Ver el jardín 🌻</button>
+    </div>
+
+    <script src="script.js"></script>
+
+    <audio id="bg-music" src="musica.mp3" loop></audio>
+
+    <button id="read-again-btn" class="floating-btn" style="display: none;">💌 Volver a leer</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
