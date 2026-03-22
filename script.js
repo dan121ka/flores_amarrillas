@@ -1,5 +1,5 @@
 // Configuración
-const NUM_FLOWERS = 25; // Aumenta para un campo más denso
+const NUM_FLOWERS = 20; // Aumenta para un campo más denso
 const NUM_PETALS_PER_FLOWER = 16;
 const NUM_PARTICLES = 30;
 const NUM_STARS = 150; // Cantidad de estrellas en el fondo
